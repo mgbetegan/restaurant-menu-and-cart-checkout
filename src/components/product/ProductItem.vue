@@ -7,7 +7,14 @@
 import {defineComponent} from 'vue'
 
 export default defineComponent({
-  name: "ProductItem"
+  name: "ProductItem",
+  props: {
+    product:{
+      type: Object,
+      required: true,
+    }
+  }
+
 })
 </script>
 

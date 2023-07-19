@@ -1,10 +1,6 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <AppLayout/>
   </div>
 </template>
 
@@ -30,3 +26,6 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+<script setup lang="ts">
+import AppLayout from "@/components/layouts/AppLayout.vue";
+</script>

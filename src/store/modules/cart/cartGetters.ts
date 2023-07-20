@@ -1,5 +1,9 @@
-import {Product} from "@/store/types/types.interface";
+import {Product, RootState} from "@/store/types/types.interface";
+
 
 export default {
-    getCartContent :(state: { content: Array<Product>; }) => state.content,
+    getCartContent :(state: RootState) => state.products,
+    getCartAmount: (state:RootState) => state.products.reduce((total:number,item) =>total+(item.prix*item.qte), 0),
+    getCartTotalProductNumber: (state:RootState) => state.products.reduce((total:number,item) =>total+item.qte, 0),
+
 }

@@ -1,294 +1,342 @@
 {
-  "carte": {
-    "entrees": [
-      {
-        "id": 1,
-        "nom": "Salade César",
-        "description": "Une salade fraîche avec des feuilles de laitue romaine, des croûtons, du parmesan et une vinaigrette César.",
-        "prix": 8.50,
-        "image": "chemin/vers/image_salade_cesar.jpg"
-      },
-      {
-        "id": 2,
-        "nom": "Soupe à l'oignon gratinée",
-        "description": "Une soupe à l'oignon chaude et savoureuse, gratinée au fromage et aux croûtons.",
-        "prix": 6.75,
-        "image": "chemin/vers/image_soupe_oignon.jpg"
-      },
-      {
-        "id": 3,
-        "nom": "Brochettes de poulet satay",
-        "description": "Des brochettes de poulet grillées accompagnées d'une sauce satay aux cacahuètes.",
-        "prix": 9.25,
-        "image": "chemin/vers/image_brochettes_poulet.jpg"
-      },
-      {
-        "id": 4,
-        "nom": "Tartare de saumon",
-        "description": "Du saumon frais coupé en dés, assaisonné d'herbes et d'huile d'olive, servi avec des toasts.",
-        "prix": 10.50,
-        "image": "chemin/vers/image_tartare_saumon.jpg"
-      },
-      {
-        "id": 5,
-        "nom": "Carpaccio de bœuf",
-        "description": "Des fines tranches de bœuf cru marinées dans une vinaigrette au citron, garnies de roquette et de copeaux de parmesan.",
-        "prix": 12.00,
-        "image": "chemin/vers/image_carpaccio_boeuf.jpg"
-      },
-      {
-        "id": 6,
-        "nom": "Crevettes grillées à l'ail",
-        "description": "Crevettes grillées à l'ail et au persil, servies avec une sauce citronnée.",
-        "prix": 11.75,
-        "image": "chemin/vers/image_crevettes_grillees.jpg"
-      },
-      {
-        "id": 7,
-        "nom": "Gaspacho andalou",
-        "description": "Une soupe froide à base de tomates, concombres, poivrons, oignons et huile d'olive, typique de l'Andalousie.",
-        "prix": 7.50,
-        "image": "chemin/vers/image_gaspacho.jpg"
-      },
-      {
-        "id": 8,
-        "nom": "Bruschetta à la tomate",
-        "description": "Pain grillé frotté à l'ail, garni de tomates fraîches, de basilic et d'huile d'olive.",
-        "prix": 7.25,
-        "image": "chemin/vers/image_bruschetta.jpg"
-      },
-      {
-        "id": 9,
-        "nom": "Beignets de calamars",
-        "description": "Des calamars frits croustillants, servis avec une sauce tartare.",
-        "prix": 9.50,
-        "image": "chemin/vers/image_beignets_calamars.jpg"
-      },
-
-      {
-        "id": 10,
-        "nom": "Tartare de thon",
-        "description": "Thon cru coupé en dés, mariné dans une sauce soja et de l'huile de sésame, servi avec des graines de sésame.",
-        "prix": 11.00,
-        "image": "chemin/vers/image_tartare_thon.jpg"
-      }
-    ],
-
-    "plats": [
-      {
-        "id": 1,
-        "nom": "Steak au poivre",
-        "description": "Un délicieux steak de bœuf servi avec une sauce au poivre, des légumes sautés et des pommes de terre rôties.",
-        "prix": 19.99,
-        "image": "chemin/vers/image_steak.jpg"
-      },
-      {
-        "id": 2,
-        "nom": "Pâtes Alfredo aux champignons",
-        "description": "Des pâtes fettuccine crémeuses servies avec une sauce Alfredo maison et des champignons frais.",
-        "prix": 15.50,
-        "image": "chemin/vers/image_pates.jpg"
-      },
-      {
-        "id": 3,
-        "nom": "Riz sauté aux légumes",
-        "description": "Un plat végétarien avec du riz sauté, des légumes colorés et une touche de sauce soja.",
-        "prix": 12.75,
-        "image": "chemin/vers/image_riz_sauté.jpg"
-      },
-      {
-        "id": 4,
-        "nom": "Filet de saumon grillé",
-        "description": "Un filet de saumon frais grillé, accompagné de purée de patates douces et d'asperges rôties.",
-        "prix": 22.50,
-        "image": "chemin/vers/image_saumon.jpg"
-      },
-      {
-        "id": 5,
-        "nom": "Magret de canard",
-        "description": "Magret de canard grillé servi avec une sauce aux fruits rouges et une poêlée de légumes.",
-        "prix": 18.75,
-        "image": "chemin/vers/image_magret_canard.jpg"
-      },
-      {
-        "id": 6,
-        "nom": "Moules marinières",
-        "description": "Moules fraîches cuites dans une sauce au vin blanc, à l'ail et aux herbes, servies avec des frites.",
-        "prix": 16.50,
-        "image": "chemin/vers/image_moules_marinieres.jpg"
-      },
-      {
-        "id": 7,
-        "nom": "Côtes d'agneau",
-        "description": "Côtes d'agneau grillées, accompagnées de légumes méditerranéens rôtis.",
-        "prix": 23.25,
-        "image": "chemin/vers/image_cotes_agneau.jpg"
-      },
-      {
-        "id": 8,
-        "nom": "Raviolis aux champignons",
-        "description": "Raviolis frais farcis aux champignons, servis avec une sauce crémeuse aux herbes.",
-        "prix": 14.95,
-        "image": "chemin/vers/image_raviolis_champignons.jpg"
-      },
-      {
-        "id": 9,
-        "nom": "Paella",
-        "description": "Un plat espagnol traditionnel à base de riz safrané, de fruits de mer et de poulet.",
-        "prix": 21.00,
-        "image": "chemin/vers/image_paella.jpg"
-      },
-      {
-        "id": 10,
-        "nom": "Burger gourmet",
-        "description": "Un burger gourmet avec un steak juteux, du fromage, des légumes frais et une sauce spéciale, servi avec des frites.",
-        "prix": 13.50,
-        "image": "chemin/vers/image_burger_gourmet.jpg"
-      }
-    ],
-
-    "desserts": [
-      {
-        "id": 1,
-        "nom": "Tarte aux pommes",
-        "description": "Une délicieuse tarte aux pommes faite maison, servie avec une boule de glace à la vanille.",
-        "prix": 7.99,
-        "image": "chemin/vers/image_tarte.jpg"
-      },
-      {
-        "id": 2,
-        "nom": "Mousse au chocolat",
-        "description": "Une mousse au chocolat légère et onctueuse, garnie de copeaux de chocolat noir.",
-        "prix": 6.50,
-        "image": "chemin/vers/image_mousse.jpg"
-      },
-      {
-        "id": 3,
-        "nom": "Crème brûlée",
-        "description": "Une crème onctueuse à la vanille avec une fine couche de caramel croquant.",
-        "prix": 8.25,
-        "image": "chemin/vers/image_creme_brulée.jpg"
-      },
-      {
-        "id": 4,
-        "nom": "Assiette de fruits frais",
-        "description": "Une sélection de fruits frais de saison, parfaite pour finir le repas en légèreté.",
-        "prix": 9.00,
-        "image": "chemin/vers/image_fruits.jpg"
-      },
-      {
-        "id": 5,
-        "nom": "Tiramisu",
-        "description": "Un classique italien à base de biscuits imbibés de café et de mascarpone.",
-        "prix": 7.25,
-        "image": "chemin/vers/image_tiramisu.jpg"
-      },
-      {
-        "id": 6,
-        "nom": "Fondant au chocolat",
-        "description": "Un fondant au chocolat chaud avec un cœur coulant, servi avec une boule de glace à la vanille.",
-        "prix": 8.50,
-        "image": "chemin/vers/image_fondant_chocolat.jpg"
-      },
-      {
-        "id": 7,
-        "nom": "Panna cotta aux fruits rouges",
-        "description": "Une panna cotta à la vanille servie avec un coulis de fruits rouges et des fruits frais.",
-        "prix": 7.95,
-        "image": "chemin/vers/image_panna_cotta.jpg"
-      },
-      {
-        "id": 8,
-        "nom": "Mille-feuille",
-        "description": "Un dessert classique composé de couches de pâte feuilletée et de crème pâtissière.",
-        "prix": 9.50,
-        "image": "chemin/vers/image_mille_feuille.jpg"
-      },
-      {
-        "id": 9,
-        "nom": "Tarte au citron meringuée",
-        "description": "Une tarte au citron acidulée garnie de meringue légère et dorée.",
-        "prix": 7.75,
-        "image": "chemin/vers/image_tarte_citron_meringuee.jpg"
-      },
-      {
-        "id": 10,
-        "nom": "Crêpes au Nutella",
-        "description": "Crêpes fines garnies de Nutella et saupoudrées de sucre glace.",
-        "prix": 6.75,
-        "image": "chemin/vers/image_crepe_nutella.jpg"
-      },
-      {
-        "id": 11,
-        "nom": "Gâteau au fromage",
-        "description": "Un gâteau au fromage crémeux avec une croûte de biscuits, servi avec un coulis de fruits rouges.",
-        "prix": 8.95,
-        "image": "chemin/vers/image_gateau_fromage.jpg"
-      },
-      {
-        "id": 12,
-        "nom": "Profiteroles",
-        "description": "Des choux garnis de glace à la vanille et nappés de chocolat chaud.",
-        "prix": 7.50,
-        "image": "chemin/vers/image_profiteroles.jpg"
-      },
-      {
-        "id": 13,
-        "nom": "Crumble aux fruits",
-        "description": "Un crumble aux fruits de saison, chaud et croustillant, servi avec de la glace à la cannelle.",
-        "prix": 7.25,
-        "image": "chemin/vers/image_crumble_fruits.jpg"
-      },
-      {
-        "id": 14,
-        "nom": "Tartelette aux fruits rouges",
-        "description": "Tartelettes individuelles aux fruits rouges frais et à la crème pâtissière.",
-        "prix": 6.95,
-        "image": "chemin/vers/image_tartelette_fruits_rouges.jpg"
-      },
-      {
-        "id": 15,
-        "nom": "Dôme au chocolat",
-        "description": "Un dôme de chocolat noir fourré d'une mousse au chocolat blanc, servi avec un coulis de fruits rouges.",
-        "prix": 8.75,
-        "image": "chemin/vers/image_dome_chocolat.jpg"
-      },
-      {
-        "id": 16,
-        "nom": "Glace artisanale",
-        "description": "Un assortiment de glaces artisanales aux parfums variés, servies avec des gaufrettes.",
-        "prix": 6.50,
-        "image": "chemin/vers/image_glace_artisanale.jpg"
-      },
-      {
-        "id": 17,
-        "nom": "Beignets aux pommes",
-        "description": "Beignets chauds aux pommes, saupoudrés de sucre glace et accompagnés d'une boule de glace à la cannelle.",
-        "prix": 7.50,
-        "image": "chemin/vers/image_beignets_pommes.jpg"
-      },
-      {
-        "id": 18,
-        "nom": "Tarte au chocolat",
-        "description": "Une délicieuse tarte au chocolat fondant, garnie de noix concassées.",
-        "prix": 7.75,
-        "image": "chemin/vers/image_tarte_chocolat.jpg"
-      },
-      {
-        "id": 19,
-        "nom": "Soufflé au grand Marnier",
-        "description": "Un soufflé léger au grand Marnier, servi chaud avec une sauce à l'orange.",
-        "prix": 9.25,
-        "image": "chemin/vers/image_souffle_grand_marnier.jpg"
-      },
-      {
-        "id": 20,
-        "nom": "Salade de fruits exotiques",
-        "description": "Une salade de fruits tropicaux frais, arrosée de sirop de passion et saupoudrée de noix de coco râpée.",
-        "prix": 7.25,
-        "image": "chemin/vers/image_salade_fruits_exotiques.jpg"
-      }
-    ]
-
-  }
+  "carte": [
+    {
+      "title": "Les Entrées",
+      "subtitle": "Le restaurant vous propose",
+      "foods": [
+        {
+          "id": 1,
+          "nom": "Salade César",
+          "description": "Une salade fraîche avec des feuilles de laitue romaine, des croûtons, du parmesan et une vinaigrette César.",
+          "prix": 8.50,
+          "qte": 0,
+          "image": "@/assets/images/products/entrees/image_salade_cesar.jpg"
+        },
+        {
+          "id": 2,
+          "nom": "Soupe à l'oignon gratinée",
+          "description": "Une soupe à l'oignon chaude et savoureuse, gratinée au fromage et aux croûtons.",
+          "prix": 6.75,
+          "qte": 0,
+          "image": "@/assets/images/products/entrees/image_soupe_oignon.jpg"
+        },
+        {
+          "id": 3,
+          "nom": "Brochettes de poulet satay",
+          "description": "Des brochettes de poulet grillées accompagnées d'une sauce satay aux cacahuètes.",
+          "prix": 9.25,
+          "qte": 0,
+          "image": "@/assets/images/products/entrees/image_brochettes_poulet.jpg"
+        },
+        {
+          "id": 4,
+          "nom": "Tartare de saumon",
+          "description": "Du saumon frais coupé en dés, assaisonné d'herbes et d'huile d'olive, servi avec des toasts.",
+          "prix": 10.50,
+          "qte": 0,
+          "image": "@/assets/images/products/entrees/image_tartare_saumon.jpg"
+        },
+        {
+          "id": 5,
+          "nom": "Carpaccio de bœuf",
+          "description": "Des fines tranches de bœuf cru marinées dans une vinaigrette au citron, garnies de roquette et de copeaux de parmesan.",
+          "prix": 12.00,
+          "qte": 0,
+          "image": "@/assets/images/products/entrees/image_carpaccio_boeuf.jpg"
+        },
+        {
+          "id": 6,
+          "nom": "Crevettes grillées à l'ail",
+          "description": "Crevettes grillées à l'ail et au persil, servies avec une sauce citronnée.",
+          "prix": 11.75,
+          "qte": 0,
+          "image": "@/assets/images/products/entrees/image_crevettes_grillees.jpg"
+        },
+        {
+          "id": 7,
+          "nom": "Gaspacho andalou",
+          "description": "Une soupe froide à base de tomates, concombres, poivrons, oignons et huile d'olive, typique de l'Andalousie.",
+          "prix": 7.50,
+          "qte": 0,
+          "image": "@/assets/images/products/entrees/image_gaspacho.jpg"
+        },
+        {
+          "id": 8,
+          "nom": "Bruschetta à la tomate",
+          "description": "Pain grillé frotté à l'ail, garni de tomates fraîches, de basilic et d'huile d'olive.",
+          "prix": 7.25,
+          "qte": 0,
+          "image": "@/assets/images/products/entrees/image_bruschetta.jpg"
+        },
+        {
+          "id": 9,
+          "nom": "Beignets de calamars",
+          "description": "Des calamars frits croustillants, servis avec une sauce tartare.",
+          "prix": 9.50,
+          "qte": 0,
+          "image": "@/assets/images/products/entrees/image_beignets_calamars.jpg"
+        },
+        {
+          "id": 10,
+          "nom": "Tartare de thon",
+          "description": "Thon cru coupé en dés, mariné dans une sauce soja et de l'huile de sésame, servi avec des graines de sésame.",
+          "prix": 11.00,
+          "qte": 0,
+          "image": "@/assets/images/products/entrees/image_tartare_thon.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Les Plats",
+      "subtitle": "Le restaurant vous propose",
+      "foods": [
+        {
+          "id": 1,
+          "nom": "Steak au poivre",
+          "description": "Un délicieux steak de bœuf servi avec une sauce au poivre, des légumes sautés et des pommes de terre rôties.",
+          "prix": 19.99,
+          "qte": 0,
+          "image": "@/assets/images/products/plats/image_steak.jpg"
+        },
+        {
+          "id": 2,
+          "nom": "Pâtes Alfredo aux champignons",
+          "description": "Des pâtes fettuccine crémeuses servies avec une sauce Alfredo maison et des champignons frais.",
+          "prix": 15.50,
+          "qte": 0,
+          "image": "@/assets/images/products/plats/image_pates.jpg"
+        },
+        {
+          "id": 3,
+          "nom": "Riz sauté aux légumes",
+          "description": "Un plat végétarien avec du riz sauté, des légumes colorés et une touche de sauce soja.",
+          "prix": 12.75,
+          "qte": 0,
+          "image": "@/assets/images/products/plats/image_riz_sauté.jpg"
+        },
+        {
+          "id": 4,
+          "nom": "Filet de saumon grillé",
+          "description": "Un filet de saumon frais grillé, accompagné de purée de patates douces et d'asperges rôties.",
+          "prix": 22.50,
+          "qte": 0,
+          "image": "@/assets/images/products/plats/image_saumon.jpg"
+        },
+        {
+          "id": 5,
+          "nom": "Magret de canard",
+          "description": "Magret de canard grillé servi avec une sauce aux fruits rouges et une poêlée de légumes.",
+          "prix": 18.75,
+          "qte": 0,
+          "image": "@/assets/images/products/plats/image_magret_canard.jpg"
+        },
+        {
+          "id": 6,
+          "nom": "Moules marinières",
+          "description": "Moules fraîches cuites dans une sauce au vin blanc, à l'ail et aux herbes, servies avec des frites.",
+          "prix": 16.50,
+          "qte": 0,
+          "image": "@/assets/images/products/plats/image_moules_marinieres.jpg"
+        },
+        {
+          "id": 7,
+          "nom": "Côtes d'agneau",
+          "description": "Côtes d'agneau grillées, accompagnées de légumes méditerranéens rôtis.",
+          "prix": 23.25,
+          "qte": 0,
+          "image": "@/assets/images/products/plats/image_cotes_agneau.jpg"
+        },
+        {
+          "id": 8,
+          "nom": "Raviolis aux champignons",
+          "description": "Raviolis frais farcis aux champignons, servis avec une sauce crémeuse aux herbes.",
+          "prix": 14.95,
+          "qte": 0,
+          "image": "@/assets/images/products/plats/image_raviolis_champignons.jpg"
+        },
+        {
+          "id": 9,
+          "nom": "Paella",
+          "description": "Un plat espagnol traditionnel à base de riz safrané, de fruits de mer et de poulet.",
+          "prix": 21.00,
+          "qte": 0,
+          "image": "@/assets/images/products/plats/image_paella.jpg"
+        },
+        {
+          "id": 10,
+          "nom": "Burger gourmet",
+          "description": "Un burger gourmet avec un steak juteux, du fromage, des légumes frais et une sauce spéciale, servi avec des frites.",
+          "prix": 13.50,
+          "qte": 0,
+          "image": "@/assets/images/products/plats/image_burger_gourmet.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Les desserts",
+      "subtitle": "Le restaurant vous propose",
+      "foods": [
+        {
+          "id": 1,
+          "nom": "Tarte aux pommes",
+          "description": "Une délicieuse tarte aux pommes faite maison, servie avec une boule de glace à la vanille.",
+          "prix": 7.99,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_tarte.jpg"
+        },
+        {
+          "id": 2,
+          "nom": "Mousse au chocolat",
+          "description": "Une mousse au chocolat légère et onctueuse, garnie de copeaux de chocolat noir.",
+          "prix": 6.50,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_mousse.jpg"
+        },
+        {
+          "id": 3,
+          "nom": "Crème brûlée",
+          "description": "Une crème onctueuse à la vanille avec une fine couche de caramel croquant.",
+          "prix": 8.25,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_creme_brulée.jpg"
+        },
+        {
+          "id": 4,
+          "nom": "Assiette de fruits frais",
+          "description": "Une sélection de fruits frais de saison, parfaite pour finir le repas en légèreté.",
+          "prix": 9.00,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_fruits.jpg"
+        },
+        {
+          "id": 5,
+          "nom": "Tiramisu",
+          "description": "Un classique italien à base de biscuits imbibés de café et de mascarpone.",
+          "prix": 7.25,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_tiramisu.jpg"
+        },
+        {
+          "id": 6,
+          "nom": "Fondant au chocolat",
+          "description": "Un fondant au chocolat chaud avec un cœur coulant, servi avec une boule de glace à la vanille.",
+          "prix": 8.50,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_fondant_chocolat.jpg"
+        },
+        {
+          "id": 7,
+          "nom": "Panna cotta aux fruits rouges",
+          "description": "Une panna cotta à la vanille servie avec un coulis de fruits rouges et des fruits frais.",
+          "prix": 7.95,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_panna_cotta.jpg"
+        },
+        {
+          "id": 8,
+          "nom": "Mille-feuille",
+          "description": "Un dessert classique composé de couches de pâte feuilletée et de crème pâtissière.",
+          "prix": 9.50,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_mille_feuille.jpg"
+        },
+        {
+          "id": 9,
+          "nom": "Tarte au citron meringuée",
+          "description": "Une tarte au citron acidulée garnie de meringue légère et dorée.",
+          "prix": 7.75,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_tarte_citron_meringuee.jpg"
+        },
+        {
+          "id": 10,
+          "nom": "Crêpes au Nutella",
+          "description": "Crêpes fines garnies de Nutella et saupoudrées de sucre glace.",
+          "prix": 6.75,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_crepe_nutella.jpg"
+        },
+        {
+          "id": 11,
+          "nom": "Gâteau au fromage",
+          "description": "Un gâteau au fromage crémeux avec une croûte de biscuits, servi avec un coulis de fruits rouges.",
+          "prix": 8.95,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_gateau_fromage.jpg"
+        },
+        {
+          "id": 12,
+          "nom": "Profiteroles",
+          "description": "Des choux garnis de glace à la vanille et nappés de chocolat chaud.",
+          "prix": 7.50,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_profiteroles.jpg"
+        },
+        {
+          "id": 13,
+          "nom": "Crumble aux fruits",
+          "description": "Un crumble aux fruits de saison, chaud et croustillant, servi avec de la glace à la cannelle.",
+          "prix": 7.25,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_crumble_fruits.jpg"
+        },
+        {
+          "id": 14,
+          "nom": "Tartelette aux fruits rouges",
+          "description": "Tartelettes individuelles aux fruits rouges frais et à la crème pâtissière.",
+          "prix": 6.95,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_tartelette_fruits_rouges.jpg"
+        },
+        {
+          "id": 15,
+          "nom": "Dôme au chocolat",
+          "description": "Un dôme de chocolat noir fourré d'une mousse au chocolat blanc, servi avec un coulis de fruits rouges.",
+          "prix": 8.75,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_dome_chocolat.jpg"
+        },
+        {
+          "id": 16,
+          "nom": "Glace artisanale",
+          "description": "Un assortiment de glaces artisanales aux parfums variés, servies avec des gaufrettes.",
+          "prix": 6.50,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_glace_artisanale.jpg"
+        },
+        {
+          "id": 17,
+          "nom": "Beignets aux pommes",
+          "description": "Beignets chauds aux pommes, saupoudrés de sucre glace et accompagnés d'une boule de glace à la cannelle.",
+          "prix": 7.50,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_beignets_pommes.jpg"
+        },
+        {
+          "id": 18,
+          "nom": "Tarte au chocolat",
+          "description": "Une délicieuse tarte au chocolat fondant, garnie de noix concassées.",
+          "prix": 7.75,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_tarte_chocolat.jpg"
+        },
+        {
+          "id": 19,
+          "nom": "Soufflé au grand Marnier",
+          "description": "Un soufflé léger au grand Marnier, servi chaud avec une sauce à l'orange.",
+          "prix": 9.25,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_souffle_grand_marnier.jpg"
+        },
+        {
+          "id": 20,
+          "nom": "Salade de fruits exotiques",
+          "description": "Une salade de fruits tropicaux frais, arrosée de sirop de passion et saupoudrée de noix de coco râpée.",
+          "prix": 7.25,
+          "qte": 0,
+          "image": "@/assets/images/products/desserts/image_salade_fruits_exotiques.jpg"
+        }
+      ]
+    }
+  ]
 }

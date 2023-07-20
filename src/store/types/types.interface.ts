@@ -7,8 +7,17 @@ export interface Product{
     "image": string,
     "qte":number ,
 }
+export interface ProductsMenu{
+    "title": string,
+    "subtitle": string,
+    "foods": Product[],
+}
 
 export interface RootState {
-    products: Product[],
-    amount: number,
+    "products": Product[],
+    "amount": number,
 }
+
+
+
+

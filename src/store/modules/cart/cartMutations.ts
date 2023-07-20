@@ -17,22 +17,30 @@ export default{
 
     SET_INCREASE_PRODUCT_QTE_IN_CART: (state:RootState, id:number) => {
         state.products.forEach(el => {
+            console.log("hely")
+            console.log(id);
             if (id === el.id) {
-                el.qte++;
+                el.qte ++;
+                console.log('helo');
             }
         });
+
     },
 
     SET_DECREASE_PRODUCT_QTE_IN_CART: (state:RootState, id:number) => {
         state.products.map(el => {
-
-            if (el.qte-1 > 0) {
                 if(el.id == id)
                     el.qte--;
                 return el;
-            }
         });
+
+        state.products = state.products.filter(el=>el.qte > 0);
     },
+
+    SET_CLEAR_CART:(state:RootState)=>{
+        state.products = [];
+    }
+
 
 
 

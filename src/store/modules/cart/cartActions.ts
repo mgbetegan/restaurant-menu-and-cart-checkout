@@ -23,6 +23,11 @@ export const cartActions: ActionTree<RootState,RootState> ={
         commit('SET_DECREASE_PRODUCT_QTE_IN_CART', productId)
     },
 
+    clearCart({commit}){
+        commit('SET_CLEAR_CART')
+    }
+
+
 
 
 }

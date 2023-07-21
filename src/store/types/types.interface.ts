@@ -10,6 +10,7 @@ export interface Product{
 export interface ProductsMenu{
     "title": string,
     "subtitle": string,
+    "route":string,
     "foods": Product[],
 }
 

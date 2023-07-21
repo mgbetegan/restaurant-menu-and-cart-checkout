@@ -1,7 +1,7 @@
 <template>
   <div class="bg-black" id="headerTop">
     <div class="container d-flex justify-content-between py-2">
-      <img src="@/assets/logo-brand.png" height="75" width="75" alt="logo">
+      <img src="../../assets/logo-brand.png" height="75" width="75" alt="logo">
       <button class="btn d-flex align-items-center text-white cursor-pointer" data-bs-toggle="modal"
               data-bs-target="#exampleModal">
         Mon panier
@@ -18,7 +18,8 @@
           </span>
       </button>
     </div>
-    <!-- modal -->
+
+    <!-- Cart modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
@@ -55,18 +56,18 @@
                     </div>
                     <div class="col">
                       <a class="btn btn-sm btn-dark" href="javascript:void(0)"
-                         @click="decreaseProductQte({productId:product.id})">-</a>
+                         @click="decreaseProductQte({productName:product.nom})">-</a>
                       <a class="btn btn-sm btn-white" href="javascript:void(0)">{{ product.qte }}</a>
 
                       <a class="btn btn-sm btn-dark" href="javascript:void(0)"
-                         @click="increaseProductQte({productId:product.id})">+</a>
+                         @click="increaseProductQte({productName:product.nom})">+</a>
                     </div>
                     <div class="col">
                       <span class="close"> PU : {{ product.prix }} &euro;</span>
                     </div>
                     <div class="col">
                       {{ product.prix * product.qte }} &euro;
-                      <span class="close" @click="removeProductFromCart({productId:product.id})">&#10005;</span>
+                      <span class="close" @click="removeProductFromCart({productName:product.nom})">&#10005;</span>
                     </div>
                   </div>
                 </div>
@@ -91,7 +92,7 @@ import {defineComponent} from 'vue'
 import {mapActions, mapGetters} from "vuex";
 
 export default defineComponent({
-  name: "HeaderTop",
+  name: "HeaderComponent",
   data: () => {
     return {
       isCheckout: false,
@@ -116,7 +117,6 @@ export default defineComponent({
 
     loadImage() {
       return (imagePath: string) => {
-        console.log(typeof imagePath)
         return require(`@/assets/images/products/${imagePath}`);
       }
 

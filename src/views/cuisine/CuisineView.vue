@@ -1,15 +1,16 @@
-<template>
-  <div id="plats"> <p>Hello </p></div>
-</template>
 <script lang="ts">
 import {defineComponent} from 'vue'
 
 export default defineComponent({
-  name: "PlatsView"
+  name: "CuisineView"
 })
 </script>
 
-
+<template>
+ <div>
+   <router-view></router-view>
+ </div>
+</template>
 
 <style scoped>
 

@@ -1,4 +1,4 @@
-import {Product, RootState} from "@/store/types/types.interface";
+import {RootState} from "@/store/types/types.interface";
 
 
 export default {

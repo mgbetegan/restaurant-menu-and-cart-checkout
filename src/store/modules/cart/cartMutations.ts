@@ -11,25 +11,22 @@ export default{
        state.products.push(item)
     },
 
-    SET_REMOVE_FROM_CART: (state:RootState, id:number) => {
-        state.products = state.products.filter(el=>el.id !== id);
+    SET_REMOVE_FROM_CART: (state:RootState, name:string) => {
+        state.products = state.products.filter(el=>el.nom !== name);
     },
 
-    SET_INCREASE_PRODUCT_QTE_IN_CART: (state:RootState, id:number) => {
+    SET_INCREASE_PRODUCT_QTE_IN_CART: (state:RootState, name:string) => {
         state.products.forEach(el => {
-            console.log("hely")
-            console.log(id);
-            if (id === el.id) {
+            if (name === el.nom) {
                 el.qte ++;
-                console.log('helo');
             }
         });
 
     },
 
-    SET_DECREASE_PRODUCT_QTE_IN_CART: (state:RootState, id:number) => {
+    SET_DECREASE_PRODUCT_QTE_IN_CART: (state:RootState, name:string) => {
         state.products.map(el => {
-                if(el.id == id)
+                if(el.nom == name)
                     el.qte--;
                 return el;
         });
@@ -38,7 +35,6 @@ export default{
     },
 
     SET_CLEAR_CART:(state:RootState)=>{
-        console.log('hello clear')
         state.products = [];
     }
 

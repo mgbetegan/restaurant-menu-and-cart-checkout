@@ -1,5 +1,4 @@
 <template>
-
     <div class="card h-100" >
       <img :src="loadImage(product.image)" class="card-img-top" alt="...">
       <div class="card-body d-flex flex-column text-start">
@@ -12,9 +11,9 @@
         <div v-else class="d-flex justify-content-between ">
           <p class="fw-bold mt-2 text-start">{{ product.prix }} €</p>
           <div>
-            <button class="btn btn-dark me-1" @click="decreaseProductQte({productId:product.id})">−</button>
-            <div class="btn btn-white">{{ getSingleProductQteInCart(product.id) }}</div>
-            <button class="btn btn-dark ms-1" @click="increaseProductQte({productId:product.id})">+</button>
+            <button class="btn btn-dark me-1" @click="decreaseProductQte({productName:product.nom})">−</button>
+            <div class="btn btn-white">{{ getSingleProductQteInCart(product.nom) }}</div>
+            <button class="btn btn-dark ms-1" @click="increaseProductQte({productName:product.nom})">+</button>
 
           </div>
           </div>
@@ -50,7 +49,7 @@ export default defineComponent({
     },
 
     isAlreadyInCart(product: Product): boolean {
-      const targetProduct = this.getCartContent.find((val: Product) => val.id === product.id)
+      const targetProduct = this.getCartContent.find((val: Product) => val.nom === product.nom)
       if (targetProduct) {
         return true;
       } else {
@@ -58,16 +57,14 @@ export default defineComponent({
       }
     },
 
-    getSingleProductQteInCart(id: number): number {
-      const val: number = this.getCartContent?.find((el: Product) => el.id === id)?.qte
+    getSingleProductQteInCart(name: string): number {
+      const val: number = this.getCartContent?.find((el: Product) => el.nom === name)?.qte
       if (val) {
         return val
       } else {
         return 0;
       }
     },
-
-
 
   },
 
@@ -79,7 +76,6 @@ export default defineComponent({
 
     loadImage(){
       return (imagePath: string) => {
-        console.log(typeof imagePath)
         return require(`@/assets/images/products/${imagePath}`);
       }
 

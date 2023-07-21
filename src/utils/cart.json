@@ -1,8 +1,9 @@
 {
   "carte": [
     {
-      "title": "Les Entrées",
+      "title": "Les entrées",
       "subtitle": "Le restaurant vous propose",
+      "route": "entrees",
       "foods": [
         {
           "id": 1,
@@ -87,8 +88,9 @@
       ]
     },
     {
-      "title": "Les Plats",
+      "title": "Les plats",
       "subtitle": "Le restaurant vous propose",
+      "route": "plats",
       "foods": [
         {
           "id": 1,
@@ -175,6 +177,7 @@
     {
       "title": "Les desserts",
       "subtitle": "Le restaurant vous propose",
+      "route": "desserts",
       "foods": [
         {
           "id": 1,

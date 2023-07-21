@@ -39,7 +39,7 @@
 import {defineComponent} from 'vue'
 
 export default defineComponent({
-  name: "SubHeader"
+  name: "BannerComponent"
 })
 </script>
 

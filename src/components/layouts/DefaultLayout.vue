@@ -1,7 +1,7 @@
 <template>
   <div>
-    <header-top/>
-    <sub-header/>
+    <header-component/>
+    <banner-component/>
     <div class="kitchen-banner">
       <div class="container py-5 d-flex flex-column text-start">
         <h1 class="fw-bold text-black fs-2 my-0">Bienvenue au restaurant</h1>
@@ -19,13 +19,14 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import HeaderTop from "@/components/layouts/headers/HeaderTop.vue";
-import SubHeader from "@/components/layouts/headers/SubHeader.vue";
-import FooterComponent from "@/components/layouts/footer/FooterComponent.vue";
+
+import FooterComponent from "@/components/layoutComponents/FooterComponent.vue";
+import HeaderComponent from "@/components/layoutComponents/HeaderComponent.vue";
+import BannerComponent from "@/components/layoutComponents/BannerComponent.vue";
 
 export default Vue.extend({
-  name: 'AppLayout',
-  components: {FooterComponent, SubHeader, HeaderTop},
+  name: 'DefaultLayout',
+  components: {BannerComponent, HeaderComponent, FooterComponent},
   props: {
     msg: String,
   },

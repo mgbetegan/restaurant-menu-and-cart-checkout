@@ -11,16 +11,16 @@ export const cartActions: ActionTree<RootState,RootState> ={
         commit('SET_ADD_TO_CART', product)
     },
 
-    removeProductFromCart({commit},{productId}){
-        commit('SET_REMOVE_FROM_CART', productId)
+    removeProductFromCart({commit},{productName}){
+        commit('SET_REMOVE_FROM_CART', productName)
     },
 
-    increaseProductQteInCart({commit},{productId}){
-        commit('SET_INCREASE_PRODUCT_QTE_IN_CART', productId)
+    increaseProductQteInCart({commit},{productName}){
+        commit('SET_INCREASE_PRODUCT_QTE_IN_CART', productName)
     },
 
-    decreaseProductQteInCart({commit},{productId}){
-        commit('SET_DECREASE_PRODUCT_QTE_IN_CART', productId)
+    decreaseProductQteInCart({commit},{productName}){
+        commit('SET_DECREASE_PRODUCT_QTE_IN_CART', productName)
     },
 
     clearCart({commit}){

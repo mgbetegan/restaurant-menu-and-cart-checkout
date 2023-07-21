@@ -1,39 +1,15 @@
 
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary py-md-0">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <router-link :to="{name: 'home'}" class="nav-link px-md-2 me-md-2" aria-current="page">Accueil</router-link>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Bar
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Boissons</a></li>
-              <li><a class="dropdown-item" href="#">Vins</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Cuisine
-            </a>
-            <ul class="dropdown-menu">
-              <li><router-link :to="{name: 'entrees'}" class="dropdown-item" >Entrees</router-link></li>
-              <li><router-link :to="{name: 'plats'}" class="dropdown-item" >Plats</router-link></li>
-              <li><router-link :to="{name: 'desserts'}" class="dropdown-item" >Desserts</router-link></li>
-
-            </ul>
-          </li>
-        </ul>
-      </div>
+  <div class="kitchen-banner">
+    <div class="container py-5 d-flex flex-column text-start">
+      <h1 class="fw-bold text-black fs-2 my-0">Bienvenue au restaurant</h1>
+      <h2 class="fs-3 fw-bold opacity-75 my-0">Découvrez nos produits</h2>
     </div>
-  </nav>
+
+    <div class="container position-relative">
+      <span class="about-restaurant position-absolute border rounded text-black">A la carte</span>
+    </div>
+  </div>
 </template>
 <script lang="ts">
 import {defineComponent} from 'vue'
@@ -45,6 +21,17 @@ export default defineComponent({
 
 
 
-<style scoped>
+<style scoped lang="scss">
+.kitchen-banner {
+  background-image: url("@/assets/images/bg-kitchen.jpg");
+  background-position: top;
+  background-size: cover;
 
+  .about-restaurant {
+    left: 1rem;
+    top: -1.5rem;
+    padding: .5rem 1rem;
+    background-color: #fff;
+  }
+}
 </style>

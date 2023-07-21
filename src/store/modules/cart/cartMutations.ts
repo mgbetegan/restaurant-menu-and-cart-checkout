@@ -38,6 +38,7 @@ export default{
     },
 
     SET_CLEAR_CART:(state:RootState)=>{
+        console.log('hello clear')
         state.products = [];
     }
 

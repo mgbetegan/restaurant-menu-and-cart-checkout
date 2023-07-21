@@ -10,7 +10,7 @@
           "description": "Une salade fraîche avec des feuilles de laitue romaine, des croûtons, du parmesan et une vinaigrette César.",
           "prix": 8.50,
           "qte": 0,
-          "image": "@/assets/images/products/entrees/image_salade_cesar.jpg"
+          "image": "entrees/salade_cesar.jpg"
         },
         {
           "id": 2,
@@ -18,7 +18,7 @@
           "description": "Une soupe à l'oignon chaude et savoureuse, gratinée au fromage et aux croûtons.",
           "prix": 6.75,
           "qte": 0,
-          "image": "@/assets/images/products/entrees/image_soupe_oignon.jpg"
+          "image": "entrees/soupe_oignon.jpg"
         },
         {
           "id": 3,
@@ -26,7 +26,7 @@
           "description": "Des brochettes de poulet grillées accompagnées d'une sauce satay aux cacahuètes.",
           "prix": 9.25,
           "qte": 0,
-          "image": "@/assets/images/products/entrees/image_brochettes_poulet.jpg"
+          "image": "entrees/brochettes_poulet.jpg"
         },
         {
           "id": 4,
@@ -34,7 +34,7 @@
           "description": "Du saumon frais coupé en dés, assaisonné d'herbes et d'huile d'olive, servi avec des toasts.",
           "prix": 10.50,
           "qte": 0,
-          "image": "@/assets/images/products/entrees/image_tartare_saumon.jpg"
+          "image": "entrees/tartare_saumon.jpg"
         },
         {
           "id": 5,
@@ -42,7 +42,7 @@
           "description": "Des fines tranches de bœuf cru marinées dans une vinaigrette au citron, garnies de roquette et de copeaux de parmesan.",
           "prix": 12.00,
           "qte": 0,
-          "image": "@/assets/images/products/entrees/image_carpaccio_boeuf.jpg"
+          "image": "entrees/carpaccio_boeuf.jpg"
         },
         {
           "id": 6,
@@ -50,7 +50,7 @@
           "description": "Crevettes grillées à l'ail et au persil, servies avec une sauce citronnée.",
           "prix": 11.75,
           "qte": 0,
-          "image": "@/assets/images/products/entrees/image_crevettes_grillees.jpg"
+          "image": "entrees/crevettes_grillees.jpg"
         },
         {
           "id": 7,
@@ -58,7 +58,7 @@
           "description": "Une soupe froide à base de tomates, concombres, poivrons, oignons et huile d'olive, typique de l'Andalousie.",
           "prix": 7.50,
           "qte": 0,
-          "image": "@/assets/images/products/entrees/image_gaspacho.jpg"
+          "image": "entrees/gaspacho.jpg"
         },
         {
           "id": 8,
@@ -66,7 +66,7 @@
           "description": "Pain grillé frotté à l'ail, garni de tomates fraîches, de basilic et d'huile d'olive.",
           "prix": 7.25,
           "qte": 0,
-          "image": "@/assets/images/products/entrees/image_bruschetta.jpg"
+          "image": "entrees/bruschetta.jpg"
         },
         {
           "id": 9,
@@ -74,7 +74,7 @@
           "description": "Des calamars frits croustillants, servis avec une sauce tartare.",
           "prix": 9.50,
           "qte": 0,
-          "image": "@/assets/images/products/entrees/image_beignets_calamars.jpg"
+          "image": "entrees/beignets_calamars.jpg"
         },
         {
           "id": 10,
@@ -82,7 +82,7 @@
           "description": "Thon cru coupé en dés, mariné dans une sauce soja et de l'huile de sésame, servi avec des graines de sésame.",
           "prix": 11.00,
           "qte": 0,
-          "image": "@/assets/images/products/entrees/image_tartare_thon.jpg"
+          "image": "entrees/tartare_thon.jpg"
         }
       ]
     },
@@ -96,7 +96,7 @@
           "description": "Un délicieux steak de bœuf servi avec une sauce au poivre, des légumes sautés et des pommes de terre rôties.",
           "prix": 19.99,
           "qte": 0,
-          "image": "@/assets/images/products/plats/image_steak.jpg"
+          "image": "plats/steak.jpg"
         },
         {
           "id": 2,
@@ -104,7 +104,7 @@
           "description": "Des pâtes fettuccine crémeuses servies avec une sauce Alfredo maison et des champignons frais.",
           "prix": 15.50,
           "qte": 0,
-          "image": "@/assets/images/products/plats/image_pates.jpg"
+          "image": "plats/pates.jpg"
         },
         {
           "id": 3,
@@ -112,7 +112,7 @@
           "description": "Un plat végétarien avec du riz sauté, des légumes colorés et une touche de sauce soja.",
           "prix": 12.75,
           "qte": 0,
-          "image": "@/assets/images/products/plats/image_riz_sauté.jpg"
+          "image": "plats/riz_sauté.jpg"
         },
         {
           "id": 4,
@@ -120,7 +120,7 @@
           "description": "Un filet de saumon frais grillé, accompagné de purée de patates douces et d'asperges rôties.",
           "prix": 22.50,
           "qte": 0,
-          "image": "@/assets/images/products/plats/image_saumon.jpg"
+          "image": "plats/saumon.jpg"
         },
         {
           "id": 5,
@@ -128,7 +128,7 @@
           "description": "Magret de canard grillé servi avec une sauce aux fruits rouges et une poêlée de légumes.",
           "prix": 18.75,
           "qte": 0,
-          "image": "@/assets/images/products/plats/image_magret_canard.jpg"
+          "image": "plats/magret_canard.jpg"
         },
         {
           "id": 6,
@@ -136,7 +136,7 @@
           "description": "Moules fraîches cuites dans une sauce au vin blanc, à l'ail et aux herbes, servies avec des frites.",
           "prix": 16.50,
           "qte": 0,
-          "image": "@/assets/images/products/plats/image_moules_marinieres.jpg"
+          "image": "plats/moules_marinieres.jpg"
         },
         {
           "id": 7,
@@ -144,7 +144,7 @@
           "description": "Côtes d'agneau grillées, accompagnées de légumes méditerranéens rôtis.",
           "prix": 23.25,
           "qte": 0,
-          "image": "@/assets/images/products/plats/image_cotes_agneau.jpg"
+          "image": "plats/cotes_agneau.jpg"
         },
         {
           "id": 8,
@@ -152,7 +152,7 @@
           "description": "Raviolis frais farcis aux champignons, servis avec une sauce crémeuse aux herbes.",
           "prix": 14.95,
           "qte": 0,
-          "image": "@/assets/images/products/plats/image_raviolis_champignons.jpg"
+          "image": "plats/raviolis_champignons.jpg"
         },
         {
           "id": 9,
@@ -160,7 +160,7 @@
           "description": "Un plat espagnol traditionnel à base de riz safrané, de fruits de mer et de poulet.",
           "prix": 21.00,
           "qte": 0,
-          "image": "@/assets/images/products/plats/image_paella.jpg"
+          "image": "plats/paella.jpg"
         },
         {
           "id": 10,
@@ -168,7 +168,7 @@
           "description": "Un burger gourmet avec un steak juteux, du fromage, des légumes frais et une sauce spéciale, servi avec des frites.",
           "prix": 13.50,
           "qte": 0,
-          "image": "@/assets/images/products/plats/image_burger_gourmet.jpg"
+          "image": "plats/burger_gourmet.jpg"
         }
       ]
     },
@@ -182,7 +182,7 @@
           "description": "Une délicieuse tarte aux pommes faite maison, servie avec une boule de glace à la vanille.",
           "prix": 7.99,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_tarte.jpg"
+          "image": "desserts/tarte.jpg"
         },
         {
           "id": 2,
@@ -190,7 +190,7 @@
           "description": "Une mousse au chocolat légère et onctueuse, garnie de copeaux de chocolat noir.",
           "prix": 6.50,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_mousse.jpg"
+          "image": "desserts/mousse.jpg"
         },
         {
           "id": 3,
@@ -198,7 +198,7 @@
           "description": "Une crème onctueuse à la vanille avec une fine couche de caramel croquant.",
           "prix": 8.25,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_creme_brulée.jpg"
+          "image": "desserts/creme_brulée.jpg"
         },
         {
           "id": 4,
@@ -206,7 +206,7 @@
           "description": "Une sélection de fruits frais de saison, parfaite pour finir le repas en légèreté.",
           "prix": 9.00,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_fruits.jpg"
+          "image": "desserts/fruits.jpg"
         },
         {
           "id": 5,
@@ -214,7 +214,7 @@
           "description": "Un classique italien à base de biscuits imbibés de café et de mascarpone.",
           "prix": 7.25,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_tiramisu.jpg"
+          "image": "desserts/tiramisu.jpg"
         },
         {
           "id": 6,
@@ -222,7 +222,7 @@
           "description": "Un fondant au chocolat chaud avec un cœur coulant, servi avec une boule de glace à la vanille.",
           "prix": 8.50,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_fondant_chocolat.jpg"
+          "image": "desserts/fondant_chocolat.jpg"
         },
         {
           "id": 7,
@@ -230,7 +230,7 @@
           "description": "Une panna cotta à la vanille servie avec un coulis de fruits rouges et des fruits frais.",
           "prix": 7.95,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_panna_cotta.jpg"
+          "image": "desserts/panna_cotta.jpg"
         },
         {
           "id": 8,
@@ -238,7 +238,7 @@
           "description": "Un dessert classique composé de couches de pâte feuilletée et de crème pâtissière.",
           "prix": 9.50,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_mille_feuille.jpg"
+          "image": "desserts/mille_feuille.jpg"
         },
         {
           "id": 9,
@@ -246,7 +246,7 @@
           "description": "Une tarte au citron acidulée garnie de meringue légère et dorée.",
           "prix": 7.75,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_tarte_citron_meringuee.jpg"
+          "image": "desserts/tarte_citron_meringuee.jpg"
         },
         {
           "id": 10,
@@ -254,7 +254,7 @@
           "description": "Crêpes fines garnies de Nutella et saupoudrées de sucre glace.",
           "prix": 6.75,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_crepe_nutella.jpg"
+          "image": "desserts/crepe_nutella.jpg"
         },
         {
           "id": 11,
@@ -262,7 +262,7 @@
           "description": "Un gâteau au fromage crémeux avec une croûte de biscuits, servi avec un coulis de fruits rouges.",
           "prix": 8.95,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_gateau_fromage.jpg"
+          "image": "desserts/gateau_fromage.jpg"
         },
         {
           "id": 12,
@@ -270,7 +270,7 @@
           "description": "Des choux garnis de glace à la vanille et nappés de chocolat chaud.",
           "prix": 7.50,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_profiteroles.jpg"
+          "image": "desserts/profiteroles.jpg"
         },
         {
           "id": 13,
@@ -278,7 +278,7 @@
           "description": "Un crumble aux fruits de saison, chaud et croustillant, servi avec de la glace à la cannelle.",
           "prix": 7.25,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_crumble_fruits.jpg"
+          "image": "desserts/crumble_fruits.jpg"
         },
         {
           "id": 14,
@@ -286,7 +286,7 @@
           "description": "Tartelettes individuelles aux fruits rouges frais et à la crème pâtissière.",
           "prix": 6.95,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_tartelette_fruits_rouges.jpg"
+          "image": "desserts/tartelette_fruits_rouges.jpg"
         },
         {
           "id": 15,
@@ -294,7 +294,7 @@
           "description": "Un dôme de chocolat noir fourré d'une mousse au chocolat blanc, servi avec un coulis de fruits rouges.",
           "prix": 8.75,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_dome_chocolat.jpg"
+          "image": "desserts/dome_chocolat.jpg"
         },
         {
           "id": 16,
@@ -302,7 +302,7 @@
           "description": "Un assortiment de glaces artisanales aux parfums variés, servies avec des gaufrettes.",
           "prix": 6.50,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_glace_artisanale.jpg"
+          "image": "desserts/glace_artisanale.jpg"
         },
         {
           "id": 17,
@@ -310,7 +310,7 @@
           "description": "Beignets chauds aux pommes, saupoudrés de sucre glace et accompagnés d'une boule de glace à la cannelle.",
           "prix": 7.50,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_beignets_pommes.jpg"
+          "image": "desserts/beignets_pommes.jpg"
         },
         {
           "id": 18,
@@ -318,7 +318,7 @@
           "description": "Une délicieuse tarte au chocolat fondant, garnie de noix concassées.",
           "prix": 7.75,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_tarte_chocolat.jpg"
+          "image": "desserts/tarte_chocolat.jpg"
         },
         {
           "id": 19,
@@ -326,7 +326,7 @@
           "description": "Un soufflé léger au grand Marnier, servi chaud avec une sauce à l'orange.",
           "prix": 9.25,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_souffle_grand_marnier.jpg"
+          "image": "desserts/souffle_grand_marnier.jpg"
         },
         {
           "id": 20,
@@ -334,7 +334,7 @@
           "description": "Une salade de fruits tropicaux frais, arrosée de sirop de passion et saupoudrée de noix de coco râpée.",
           "prix": 7.25,
           "qte": 0,
-          "image": "@/assets/images/products/desserts/image_salade_fruits_exotiques.jpg"
+          "image": "desserts/salade_fruits_exotiques.jpg"
         }
       ]
     }

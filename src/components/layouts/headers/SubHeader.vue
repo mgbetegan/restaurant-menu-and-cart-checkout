@@ -15,8 +15,8 @@
               Bar
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Lorem</a></li>
-              <li><a class="dropdown-item" href="#">Lorem</a></li>
+              <li><a class="dropdown-item" href="#">Boissons</a></li>
+              <li><a class="dropdown-item" href="#">Vins</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -24,8 +24,10 @@
               Cuisine
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Lorem</a></li>
-              <li><a class="dropdown-item" href="#">Lorem</a></li>
+              <li><router-link :to="{name: 'entrees'}" class="dropdown-item" >Entrees</router-link></li>
+              <li><router-link :to="{name: 'plats'}" class="dropdown-item" >Plats</router-link></li>
+              <li><router-link :to="{name: 'desserts'}" class="dropdown-item" >Desserts</router-link></li>
+
             </ul>
           </li>
         </ul>

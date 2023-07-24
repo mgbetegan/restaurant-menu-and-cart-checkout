@@ -14,7 +14,7 @@ Vue.use(VueRouter)
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    redirect: '/',
+    redirect: '/home',
     component: DefaultLayout,
     children: [
       {
